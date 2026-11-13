@@ -1,0 +1,30 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[[source]]
+url = "https://pytorch.org"
+verify_ssl = true
+name = "pytorch"
+
+[packages]
+flask = "*"
+scikit-learn = "*"
+pandas = "*"
+numpy = "*"
+matplotlib = "*"
+jupyter = "*"
+ipython = "*"
+ipykernel = "*"
+ucimlrepo = "*"
+openpyxl = "*"
+pylint = "*"
+Pillow = "*"
+torch = {version = "==2.14.1+cpu", index = "pytorch"}
+torchvision = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.13"
