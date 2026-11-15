@@ -7,15 +7,7 @@
 - Environment: Jupyter Notebooks
 
 ## 🚀 Getting Started
-To explore or run the notebooks locally:
-```bash
-# Clone the repository
-git clone https://github.com/Jayadeep19/pytorch.git
-
-# Navigate into the directory
-cd pytorch
-
-# Install requirements (PyTorch, Jupyter, etc.)
-pip install torch torchvision jupyter
-```
-or run the notebooks in google colab after cloning the repo
+- The notebooks in this repo are created in colab, you do not have to install any libraries locally.
+- For some notebooks where libraries that are not available in colab (ex: torchtext), I created a devcontainer that creates a complete env for you to run the noteboook.
+- Just fork the repo and go to the codespace and create one and test the notebook.
+- If you do not know how to use codespace, checkout my blog on [codespaces](https://jayadeep19.github.io/til-notes/codespaces) as a starting point (I have also provided some external links and examples in it)
