@@ -1,9 +1,10 @@
 --extra-index-url https://pytorch.org
-torch==2.3.0
-torchvision==0.18.0
-torchtext==0.18.0
-numpy
+torch==2.1.0
+torchtext==0.16.0
+portalocker
+numpy<2
 jupyter
 ipykernel
 matplotlib
 pandas
+tqdm
