@@ -3,7 +3,7 @@
 2. The second notebook introduces 'differentiable indexing', which makes it possible for NN's to learn the query, Key, value vectors.
     - on MNIST dataset, I implemented
     - Hard Indexing
-    - Soft attention using attention
+    - Soft indexing using attention
     - Multi Query attention from scratch
     - Multi Head attention from scratch
     - Multi Head attention using pytorch implementation
