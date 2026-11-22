@@ -7,3 +7,4 @@
     - Multi Query attention from scratch
     - Multi Head attention from scratch
     - Multi Head attention using pytorch implementation
+3. The third notebook **trains a simple MHA** that finds **similar images** in the dataset to the input image. Used dataset is our beloved MNIST hand written digits
